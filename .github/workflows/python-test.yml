@@ -14,5 +14,5 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run script
-        run: python calc.py
+       - name: Install dependencies
+         run: pip install matplotlib
