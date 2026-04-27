@@ -15,4 +15,4 @@ jobs:
           python-version: '3.11'
 
       - name: Run script
-        run: python hello.py
+        run: python calc.py
