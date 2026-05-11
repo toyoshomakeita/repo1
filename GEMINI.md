@@ -1,19 +1,20 @@
-# Project: repo1
+# プロジェクト: repo1
 
-## Overview
-This repository is used for practicing GitHub workflows, including branching, issues, and GitHub Actions.
+## 概要
+このリポジトリは、ブランチ作成、Issue対応、GitHub ActionsなどのGitHubワークフローを練習するためのものです。
 
-## Tech Stack
-- **Language:** Python
-- **Libraries:** matplotlib (for graph generation)
+## 技術スタック
+- **言語:** Python
+- **ライブラリ:** matplotlib (グラフ生成用)
 
-## Project Structure
-- `calc.py`: Basic square root calculation.
-- `graph.py`: Generates a quadratic graph and saves it as `graph.png`.
-- `hello.py`: Simple script for testing GitHub Actions.
+## プロジェクト構造
+- `calc.py`: 基本的な平方根の計算。
+- `graph.py`: 2次関数のグラフを生成し、`graph.png`として保存。
+- `hello.py`: GitHub Actionsテスト用のシンプルなスクリプト。
 
-## Workflows
-- **Branching:** Always create a new branch for changes (e.g., `practice-branch`).
-- **Commits:** Write clear and concise commit messages.
-- **Pushing:** Push branches to `origin` and set up tracking.
-- **Pull Requests:** Use the GitHub web interface to create and merge pull requests.
+## 規約・ガイドライン
+- **言語:** Gemini CLIとのコミュニケーションおよびドキュメント作成は、常に**日本語**で行ってください。
+- **ブランチ:** 変更を加える際は、必ず新しいブランチを作成してください（例：`practice-branch`）。
+- **コミット:** 明確で簡潔なコミットメッセージを記述してください。
+- **プッシュ:** ブランチを `origin` にプッシュし、追跡（tracking）を設定してください。
+- **プルリクエスト:** GitHubのウェブインターフェースを使用して、プルリクエストの作成とマージを行ってください。
