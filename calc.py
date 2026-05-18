@@ -1,8 +1,7 @@
 import math
 
 def calculate_sqrt(x):
-    # CIの失敗テスト用：わざとバグを入れます
-    return x * 2
+    return math.sqrt(x)
 
 if __name__ == "__main__":
     x = 2
