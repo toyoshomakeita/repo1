@@ -1,7 +1,10 @@
 import math
 
-x = 2
-y = math.sqrt(x)
+def calculate_sqrt(x):
+    return math.sqrt(x)
 
-print("x =", x)
-print("sqrt(x) =", y)
+if __name__ == "__main__":
+    x = 2
+    y = calculate_sqrt(x)
+    print("x =", x)
+    print("sqrt(x) =", y)
